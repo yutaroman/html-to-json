@@ -1,0 +1,40 @@
+{
+    "name": "html-to-json",
+    "description": "",
+    "version": "1.0.0",
+    "author": "yutaroman",
+    "bugs": {
+        "url": "https://github.com/yutaroman/html-to-json/issues"
+    },
+    "homepage": "https://github.com/yutaroman/html-to-json",
+    "keywords": [
+        "json",
+        "html"
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yutaroman/html-to-json"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.0",
+        "babel-polyfill": "^6.26.0",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-stage-0": "^6.24.1",
+        "babelify": "^8.0.0",
+        "browser-sync": "^2.8.2",
+        "browserify": "^14.5.0",
+        "gulp": "^3.9.1",
+        "gulp-load-plugins": "^1.0.0-rc.1",
+        "gulp-plumber": "^1.0.1",
+        "gulp-uglify": "^2.1.0",
+        "run-sequence": "^1.1.2",
+        "through2": "^2.0.3",
+        "vinyl-transform": "^1.0.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "gulp": "gulp",
+        "build": "NODE_ENV=production gulp build --release"
+    }
+}
